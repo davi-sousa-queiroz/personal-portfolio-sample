@@ -162,6 +162,11 @@ nav {
     text-align: center;
 }
 
+.projects {
+  height: 100vh;
+  width: 100%;
+}
+
 @media (min-width: 768px){
     .hello {
       font-size: 1.5rem;
