@@ -126,6 +126,7 @@ nav {
     justify-content: center;
     align-items: center;
     height: 50vh;
+    border-bottom: 1px solid rgb(112, 112, 112);
 }
 
 .text-container {
@@ -158,4 +159,35 @@ nav {
     color: rgb(86, 86, 86);
     max-width: 60%;
     text-align: center;
+}
+
+@media (min-width: 768px){
+    .hello {
+      font-size: 1.5rem;
+    }
+
+    .front {
+      font-size: 3rem;
+    }
+
+    .caption {
+      font-size: 1.25rem;
+      max-width: 75%;
+    }
+
+    .logos {
+      height: 12%;
+      width: 12%;
+    }
+}
+
+@media (min-width: 1024px){
+  .hero {
+    height: 100vh;
+    justify-content: unset;
+  }
+
+  .text-container {
+    margin-top: 12%;
+  }
 }
