@@ -119,3 +119,42 @@ nav {
 .button:hover svg path {
   fill: #181717;
 }
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    width: 10%;
+}
+
+.hello {
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.front {
+    font-size: 2em;
+    font-weight: 900;
+}
+
+.caption {
+    color: rgb(86, 86, 86);
+    max-width: 60%;
+}
