@@ -290,21 +290,6 @@ footer {
   font-size: 0.7rem;
 }
 
-@media screen and (max-width: 767px) and (orientation: landscape) {
-  .closing {
-    min-height: 70vh;
-  }
-
-  .footer-contents {
-    height: 140%;
-  }
-
-  .hero {
-    height: 100vh;
-  }
-}
-
-
 @media (min-width: 768px){
     .hello {
       font-size: 1.5rem;
@@ -327,15 +312,47 @@ footer {
     .links {
       gap: 4rem;
     }
+
+    .heading {
+      font-size: 3.1em;
+    }
+
+    .parag {
+      font-size: 1.25em;
+    }
+
+    .button-2 {
+      font-size: 1.5em;
+      padding: 0.75rem 3rem;
+      border-radius: 1rem;
+    }
+
+    .header {
+      gap: 2rem;
+    }
 }
 
 @media (min-width: 1024px){
   .hero {
     height: 100vh;
     justify-content: unset;
+    align-items: unset;
+    padding-top: 5rem;
+  }
+
+  .logos, svg {
+    height: 2.25rem;
+  }
+
+  .front {
+    font-size: 3.5em;
   }
 
   .text-container {
     margin-top: 12%;
+  }
+
+  .closing {
+    height: 70vh;
   }
 }
