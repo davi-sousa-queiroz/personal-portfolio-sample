@@ -25,7 +25,7 @@ nav {
 .links {
     display: flex;
     list-style: none;
-    gap: 5rem;
+    gap: 1rem;
     padding: 0.75rem;
     font-size: 1.1em;
     font-weight: 500;
@@ -125,7 +125,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    height: 60vh;
     border-bottom: 1px solid rgb(112, 112, 112);
 }
 
@@ -157,7 +157,7 @@ nav {
 
 .caption {
     color: rgb(86, 86, 86);
-    max-width: 60%;
+    max-width: 70%;
     text-align: center;
 }
 
@@ -178,6 +178,10 @@ nav {
     .logos {
       height: 12%;
       width: 12%;
+    }
+
+    .links {
+      gap: 4rem;
     }
 }
 
