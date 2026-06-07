@@ -157,4 +157,5 @@ nav {
 .caption {
     color: rgb(86, 86, 86);
     max-width: 60%;
+    text-align: center;
 }
