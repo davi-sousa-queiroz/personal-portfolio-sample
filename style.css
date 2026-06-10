@@ -6,6 +6,10 @@
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
     background-color: rgb(0, 0, 0);
     font-family: 'Inter', sans-serif;
@@ -145,6 +149,25 @@ nav {
     align-items: center;
     height: 10%;
     width: 10%;
+    gap: 1rem;
+}
+
+.logos a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.logos svg {
+    width: 25px;
+    height: 25px;
+    fill: #000000;
+    transition: transform 0.3s ease;
+}
+
+.logos a:hover svg {
+    transform: scale(1.1);
 }
 
 .hello {
@@ -283,6 +306,8 @@ footer {
 .links-2 {
   width: 60px;
   height: 1rem;
+  color: rgb(146, 146, 146);
+  text-decoration: none;
 }
 
 .copyright {
@@ -331,6 +356,7 @@ footer {
   grid-template-columns: 1fr;
   gap: 2rem;
   width: 70%;
+  text-decoration: none;
 }
 
 .project {
@@ -341,12 +367,14 @@ footer {
   display: flex;
   flex-direction: column;
   border-bottom: 3px dotted black;
+  text-decoration: none;
 }
 
 .screenshot {
   background-color: #2a2a2a;
   min-height: 220px;
   width: 100%;
+  text-decoration: none;
 }
 
 .project-desc {
@@ -354,6 +382,7 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 0.65rem;
+  text-decoration: none;
 }
 
 .project-desc .name {
@@ -361,6 +390,7 @@ footer {
   font-weight: 700;
   line-height: 1.35;
   color: #ffffff;
+  text-decoration: none;
 }
 
 .project-desc .tools {
@@ -368,6 +398,7 @@ footer {
   color: #b3b3b3;
   letter-spacing: 0.12em;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 @media (min-width: 768px){
