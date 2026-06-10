@@ -1,6 +1,7 @@
 # 💼 Personal Portfolio (June 8th 2026)
 
-PORTFOLIO DESIGN INSPERATION: @GeovanaMat
+* Inspired by the web design of [@GeovanaMat](https://github.com/GeovanaMat).
+* Original repository: [portfolio-pessoal](https://github.com/GeovanaMat/portfolio-pessoal).
 
 A clean and responsive portfolio website built with HTML and CSS to showcase my projects, frontend skills, and development journey.
 
