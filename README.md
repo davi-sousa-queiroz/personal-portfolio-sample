@@ -1,4 +1,4 @@
-# 💼 Personal Portfolio (June 8th 2026)
+# 💼  Personal Portfolio (June 8th 2026) 🌐
 
 * Inspired by the web design of [@GeovanaMat](https://github.com/GeovanaMat).
 * Original repository: [portfolio-pessoal](https://github.com/GeovanaMat/portfolio-pessoal).
