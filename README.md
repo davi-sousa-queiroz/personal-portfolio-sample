@@ -1,5 +1,7 @@
 # 💼 Personal Portfolio (June 8th 2026)
 
+PORTFOLIO DESIGN INSPERATION: @GeovanaMat
+
 A clean and responsive portfolio website built with HTML and CSS to showcase my projects, frontend skills, and development journey.
 
 After spending several days building Focus AI (and questioning my life choices multiple times), I wanted something smaller to practice responsive design.
