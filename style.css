@@ -425,6 +425,12 @@ footer {
   background-size: cover;
 }
 
+.pfp {
+  background-image: url(static/pfp.png);
+  background-position: center;
+  background-size: cover;
+}
+
 @media (min-width: 768px){
     .hello {
       font-size: 1.5rem;
